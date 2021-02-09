@@ -1,0 +1,114 @@
+nav.Nawigacja {
+  position: relative;
+  background-color: #7575ca;
+  -webkit-box-shadow: 4px 3px 15px 0px #323232;
+          box-shadow: 4px 3px 15px 0px #323232;
+  font-family: 'Lato', sans-serif;
+  padding: 0.5%;
+}
+
+nav.Nawigacja ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+nav.Nawigacja ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25%;
+}
+
+nav.Nawigacja ul li img {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  margin-left: 2%;
+}
+
+nav.Nawigacja ul li a {
+  text-align: center;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 24px;
+  color: #ddddeb;
+}
+
+nav.Nawigacja ul li a:hover {
+  color: white;
+}
+
+nav.Nawigacja ul li a.go {
+  text-align: left;
+  padding-left: 5%;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+nav.Nawigacja ul li a.go:hover ~ ul.extend li {
+  display: block;
+}
+
+nav.Nawigacja ul li ul.extend {
+  z-index: 3;
+  position: absolute;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 100%;
+  border-top: black solid 1px;
+}
+
+nav.Nawigacja ul li ul.extend:hover li {
+  display: block;
+}
+
+nav.Nawigacja ul li ul.extend li {
+  position: relative;
+  float: none;
+  background-color: #7575ca;
+  width: 100%;
+  font-size: 20px;
+  display: none;
+}
+
+nav.Nawigacja ul button {
+  width: 10%;
+  margin-left: 10%;
+  height: auto;
+  background-color: transparent;
+  border: solid 2px #ddddeb;
+  color: #ddddeb;
+  text-transform: uppercase;
+  font-size: 150%;
+  padding: 2px;
+  cursor: pointer;
+}
+
+nav.Nawigacja ul button:hover {
+  color: white;
+  border-color: white;
+}
+/*# sourceMappingURL=header.css.map */

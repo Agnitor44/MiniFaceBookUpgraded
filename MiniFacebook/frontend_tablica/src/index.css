@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    
+}
+body {
+    background-color: rgb(221, 221, 235);
+    font-family: 'Oswald', sans-serif;
+}

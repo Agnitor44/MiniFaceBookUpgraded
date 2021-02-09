@@ -1,0 +1,12 @@
+div.newsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 4%;
+    article {
+        p {
+            font-size: 26px;
+        }
+    }
+}

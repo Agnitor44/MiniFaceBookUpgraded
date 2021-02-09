@@ -1,0 +1,45 @@
+div.infoConteiner {
+    width: 100%;
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        textarea {
+            width: 60%;
+            height: 20vh;
+            margin: 2% 0;
+            margin-bottom: 0;
+            font-size: 18px;
+        }
+        button {
+            width: 20%;
+            padding: 0.5%;
+            font-size: 26px;
+            border: none;
+            border-radius: 10px;
+            background-color: #7575ca;
+            color: rgb(221, 221, 235);
+            transition: 0.4s;
+            margin: 2% 0;
+            cursor: pointer;
+            &:hover {
+                color: white;
+                transform: scaleX(1.05);
+            }
+        }
+    }
+}
+div.txtCon {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 2% auto;
+  font-size: 26px;
+  background-color: rgb(231, 231, 231);
+  padding: 2%;
+  article {
+     
+  }
+}

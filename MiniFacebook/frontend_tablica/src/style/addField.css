@@ -1,0 +1,56 @@
+div.addField {
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgba(248, 248, 248, 0.767);
+}
+
+div.addField form {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.addField form input {
+  width: 70%;
+  height: 3vh;
+  font-size: 22px;
+}
+
+div.addField form textarea {
+  width: 70%;
+  height: 30vh;
+  font-size: 18px;
+}
+
+div.addField form button {
+  width: 50%;
+  margin: 3%;
+  padding: 1%;
+  font-size: 36px;
+  text-transform: uppercase;
+  background-color: #7575ca;
+  color: #ddddeb;
+  border: none;
+  border-radius: 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+div.addField form button:hover {
+  color: white;
+  -webkit-transform: scaleX(1.05);
+          transform: scaleX(1.05);
+}
+/*# sourceMappingURL=addField.css.map */

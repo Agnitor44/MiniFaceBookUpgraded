@@ -1,0 +1,43 @@
+div.addField {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(248, 248, 248, 0.767);
+   
+    form {
+        text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       
+    input {
+     
+        width: 70%;
+        height: 3vh;
+        font-size: 22px;
+    }
+    textarea {
+        width: 70%;
+        height: 30vh;
+        font-size: 18px;
+    }
+    button {
+        width: 50%;
+        margin: 3%;
+        padding: 1%;
+        font-size: 36px;
+        text-transform: uppercase;
+        background-color:  #7575ca;
+        color:rgb(221, 221, 235);
+        border: none;
+        border-radius: 10px;
+        transition: 0.4s;
+
+        cursor: pointer;
+        &:hover {
+            color: white;
+            transform: scaleX(1.05);
+        }
+    }
+    }
+}

@@ -1,0 +1,63 @@
+div.infoConteiner {
+  width: 100%;
+}
+
+div.infoConteiner form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.infoConteiner form textarea {
+  width: 60%;
+  height: 20vh;
+  margin: 2% 0;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+div.infoConteiner form button {
+  width: 20%;
+  padding: 0.5%;
+  font-size: 26px;
+  border: none;
+  border-radius: 10px;
+  background-color: #7575ca;
+  color: #ddddeb;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin: 2% 0;
+  cursor: pointer;
+}
+
+div.infoConteiner form button:hover {
+  color: white;
+  -webkit-transform: scaleX(1.05);
+          transform: scaleX(1.05);
+}
+
+div.txtCon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  margin: 2% auto;
+  font-size: 26px;
+  background-color: #e7e7e7;
+  padding: 2%;
+}
+/*# sourceMappingURL=info.css.map */
